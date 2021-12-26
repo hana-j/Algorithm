@@ -1,8 +1,8 @@
 // const fs = require('fs');
-// const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
+// const input = fs.readFileSync('/dev/stdin').toString().split(' ');
 
-// var M = input[0];
-// var N = input[1];
+// let M = input[0];
+// let N = input[1];
 let M = 5;
 let N = 54;
 
