@@ -1,4 +1,4 @@
-const arr =['6']
+const arr =['12']
 // const fs = require('fs');
 // const [n, ...arr] = fs.readFileSync("/dev/stdin").toString().trim().split("\n").map(v => +v);
 
@@ -13,7 +13,7 @@ dp[2] = 1;
 for (let i = 3; i <= MAX + 1; i++) {
   dp[i] = dp[i - 3] + dp[i - 2];
 }
-console.log(dp[arr[i]-1])
+
 for(let i=0; i<arr.length;i++){
     console.log(dp[arr[i]-1]);
 }
