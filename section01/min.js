@@ -1,7 +1,6 @@
 function solution(arr){         
-    let answer ='';
+    let answer = Number.MAX_SAFE_INTEGER; //큰숫자로 미리 선언할때
     for(let i=0;i<arr.length; i++){
-        answer = arr[0];
         if(arr[i]<answer) {
             answer=arr[i]};
     }
